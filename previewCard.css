@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --darkCyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --veryDarkBlue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--cream);
+}
+
+/* Styling section in the body */
+section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: 40% auto;
+}
+
+/* Styling the title, so that it's bold and has google font */
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 10px;
+    width: 90%;
+    margin: 0%;
+}
+
+/* Styling "PERFUME" */
+h4 {
+    font-weight: 100;
+    color: var(--veryDarkBlue);
+    text-align: left;
+    font-stretch: ultra-expanded;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Styling the blurb next to the photo */
+p {
+    color: var(--veryDarkBlue);
+    padding: 10px;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#img-container {
+    width: 40%;
+} 
+
+/* Styling affecting the img */
+#desktop-image {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0%;
+    /* margin-top: 15%;
+    margin-bottom: 20%;
+    margin-left: 29.7%; */ 
+    border-radius: 10px 0 0 10px;
+}
+
+/* Styling info card next to img */
+#info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: left;
+    font-family: Montserrat;
+    background-color: var(--white);
+    /* padding: 0%;
+    /* margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 25%; */ 
+    width: 40%;
+    height: 432px;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Styling price $169.99 */
+#prices {
+    font-weight: 500;
+    color: var(--veryDarkBlue);
+    word-spacing: 10px;
+    padding: 20px 60px 20px 0;
+}
+
+/* Styling $149.99 */
+span {
+    color: var(--darkCyan);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Fraunces';
+    align-items: flex-end;
+}
+
+a {
+    font-size: smaller;
+    text-decoration: line-through;
+}
+
+/* Styling for the Button */
+button {
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    width: 80%;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* Styling for the footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+/* Styling for the footer */
+.attribution a {
+    color: var(--veryDarkBlue);
+}
+
+@media screen and (max-width: 375px) {
+    .responsive {
+        max-width: 375px;
+    }
+    
+}
